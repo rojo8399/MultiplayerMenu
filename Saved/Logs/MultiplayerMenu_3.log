@@ -232,3 +232,48 @@ LogInit: Object subsystem initialized
 [2017.03.12-23.33.11:280][475]LogSavePackage: Moving '../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Saved/UEDPCMainMenu03A4739644554D5AF23080BB92DBF036.tmp' to '../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Saved/Autosaves/Game/Levels/UEDPCMainMenu.umap'
 [2017.03.12-23.33.11:281][475]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Saved/Autosaves/Game/Levels/UEDPCMainMenu.umap
 [2017.03.12-23.33.11:286][475]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.12-23.40.00:163][ 30]SourceControl: Info On branch master
+[2017.03.12-23.40.00:163][ 30]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.03.12-23.40.00:163][ 30]SourceControl: Info nothing to commit, working tree clean
+[2017.03.12-23.41.27:906][468]SourceControl: Info On branch master
+[2017.03.12-23.41.27:906][468]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.03.12-23.41.27:906][468]SourceControl: Info Changes not staged for commit:
+[2017.03.12-23.41.27:906][468]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.03.12-23.41.27:906][468]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.03.12-23.41.27:906][468]SourceControl: Info 	deleted:    .gitattributes
+[2017.03.12-23.41.27:906][468]SourceControl: Info 	deleted:    .gitignore
+[2017.03.12-23.41.27:907][468]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.03.12-23.41.29:380][643]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.03.12-23.41.29:445][643]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/MultiplayerMenu.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.03.12-23.41.29:876][643]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.431 s
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: 
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/MultiplayerMenu.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: Stack: 
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0C095D6
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B09B9B72
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B09CB656
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000BB58A6B8
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C9C63D22
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C9C63EB9
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x0000000098C61D2E
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x0000000098C1B4B5
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x0000000098C1AA8D
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x0000000098C2F274
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000008B71B851
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000008B72D1ED
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C9C69C5C
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000AC7D7517
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000ACFE1AD6
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor.exe!0x00000000B186DEE3
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor.exe!0x00000000B185EB40
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor.exe!0x00000000B185EBBA
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor.exe!0x00000000B1870A29
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: UE4Editor.exe!0x00000000B18722B6
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: KERNEL32.DLL!0x00000000E98E8364
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: ntdll.dll!0x00000000EA1070D1
+[2017.03.12-23.41.29:876][643]LogOutputDevice:Error: 
+[2017.03.12-23.41.29:885][643]LogStats:                SubmitErrorReport -  0.000 s
+[2017.03.12-23.41.30:336][643]LogStats:                    SendNewReport -  0.451 s
+[2017.03.12-23.41.30:336][643]LogStats:             FDebug::EnsureFailed -  0.891 s
