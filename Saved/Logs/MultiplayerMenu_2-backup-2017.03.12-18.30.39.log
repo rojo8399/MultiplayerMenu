@@ -1,0 +1,748 @@
+﻿Log file open, 03/12/17 18:29:20
+LogInit:Display: Running engine for game: MultiplayerMenu
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(869708718) SRandInit(869708718).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066979
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager:Warning: No filename provided for module OnlineSubsystemSteam
+LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/' was not found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.12-23.29.21:349][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.12-23.29.21:349][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.12-23.29.21:358][  0]LogInit: Computer: DESKTOP-LKSOI0V
+[2017.03.12-23.29.21:358][  0]LogInit: User: rojo8
+[2017.03.12-23.29.21:358][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.12-23.29.21:358][  0]LogInit: High frequency timer resolution =3.914058 MHz
+[2017.03.12-23.29.21:358][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.03.12-23.29.21:358][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.12-23.29.21:358][  0]LogMemory: Process Physical Memory: 263.98 MB used, 263.98 MB peak
+[2017.03.12-23.29.21:358][  0]LogMemory: Process Virtual Memory: 262.84 MB used, 262.84 MB peak
+[2017.03.12-23.29.21:358][  0]LogMemory: Physical Memory: 5884.33 MB used,  10459.63 MB free, 16343.96 MB total
+[2017.03.12-23.29.21:358][  0]LogMemory: Virtual Memory: 645.79 MB used,  10459.63 MB free, 134217728.00 MB total
+[2017.03.12-23.29.21:419][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.12-23.29.21:874][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.12-23.29.21:901][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.03.12-23.29.21:901][  0]LogD3D11RHI:       8119/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.12-23.29.21:902][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.12-23.29.21:902][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.12-23.29.21:902][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.12-23.29.21:906][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.12-23.29.21:906][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.12-23.29.21:906][  0]LogWindows: EnumDisplayDevices:
+[2017.03.12-23.29.21:906][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.03.12-23.29.21:906][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.12-23.29.21:906][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.12-23.29.21:906][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.12-23.29.21:906][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.12-23.29.21:906][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.03.12-23.29.21:906][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.03.12-23.29.21:906][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.03.12-23.29.21:906][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.12-23.29.21:916][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.12-23.29.21:925][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.12-23.29.21:968][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Intermediate/Shaders/WorkingDirectory/6312/).
+[2017.03.12-23.29.21:968][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rojo8/AppData/Local/Temp/UnrealShaderWorkingDir/DF1DC43347224E583E8EE8B28A16A2AA/'.
+[2017.03.12-23.29.21:968][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.12-23.29.22:724][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.12-23.29.22:765][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.12-23.29.22:806][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.12-23.29.22:847][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.12-23.29.22:888][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.12-23.29.22:929][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.12-23.29.22:970][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.12-23.29.23:011][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.12-23.29.23:045][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.12-23.29.23:085][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.12-23.29.23:125][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.12-23.29.23:166][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.12-23.29.23:206][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.12-23.29.23:246][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.12-23.29.23:287][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.12-23.29.23:367][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.12-23.29.23:367][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.12-23.29.23:395][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.12-23.29.23:473][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.12-23.29.23:500][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.12-23.29.23:540][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.12-23.29.23:580][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.12-23.29.23:620][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.12-23.29.23:659][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.12-23.29.23:659][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.12-23.29.23:978][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.12-23.29.24:017][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/rojo8/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.12-23.29.24:017][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/rojo8/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.12-23.29.24:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.12-23.29.24:017][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.12-23.29.24:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.12-23.29.24:017][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.12-23.29.24:031][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.12-23.29.24:042][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rojo8/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.12-23.29.24:049][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.12-23.29.24:049][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.12-23.29.24:049][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.12-23.29.24:229][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.12-23.29.24:230][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.12-23.29.24:381][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.12-23.29.24:415][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.12-23.29.24:448][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.12-23.29.24:448][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.12-23.29.24:448][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.12-23.29.24:839][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: multiplayermenu, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2562512738
+[2017.03.12-23.29.24:879][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.03.12-23.29.24:915][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020069 seconds
+[2017.03.12-23.29.24:919][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.12-23.29.24:919][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.12-23.29.24:919][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.12-23.29.26:098][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.12-23.29.26:130][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.12-23.29.26:508][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.12-23.29.26:780][  0]SourceControl: Info Source control is disabled
+[2017.03.12-23.29.26:800][  0]SourceControl: Info Source control is disabled
+[2017.03.12-23.29.26:834][  0]SourceControl: Info Source control is disabled
+[2017.03.12-23.29.26:867][  0]SourceControl: Info Source control is disabled
+[2017.03.12-23.29.27:724][  0]LogEngine: Initializing Engine...
+[2017.03.12-23.29.27:725][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.12-23.29.27:892][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.12-23.29.27:901][  0]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.12-23.29.27:907][  0]LogInit: FAudioDevice initialized.
+[2017.03.12-23.29.27:925][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/rojo8/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.12-23.29.27:932][  0]LogInit: Texture streaming: Enabled
+[2017.03.12-23.29.28:001][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.12-23.29.28:065][  0]LogInit: Transaction tracking system initialized
+[2017.03.12-23.29.28:317][  0]BlueprintLog: New page: Editor Load
+[2017.03.12-23.29.28:950][  0]LocalizationService: Info Localization service is disabled
+[2017.03.12-23.29.29:432][  0]LogConsoleResponse:Display: 
+[2017.03.12-23.29.29:523][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.12-23.29.29:523][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.12-23.29.29:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/' took 0.01s
+[2017.03.12-23.29.30:256][  0]SourceControl: Info Source control is disabled
+[2017.03.12-23.29.30:256][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.12-23.29.30:256][  0]LightingResults: New page: Lighting Build
+[2017.03.12-23.29.30:286][  0]MapCheck: New page: Map Check
+[2017.03.12-23.29.30:286][  0]LightingResults: New page: Lighting Build
+[2017.03.12-23.29.30:430][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.12-23.29.30:430][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.12-23.29.30:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.12-23.29.30:436][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.12-23.29.30:463][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.454ms to complete.
+[2017.03.12-23.29.30:463][  0]LogFileHelpers: Loading map 'Template_Default' took 0.207
+[2017.03.12-23.29.30:524][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.12-23.29.30:611][  0]LogCollectionManager: Loaded 0 collections in 0.001096 seconds
+[2017.03.12-23.29.30:678][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Saved/Collections/' took 0.01s
+[2017.03.12-23.29.30:678][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Developers/rojo8/Collections/' took 0.01s
+[2017.03.12-23.29.30:678][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Collections/' took 0.01s
+[2017.03.12-23.29.30:678][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.12-23.29.30:685][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2263 classes and 453 folders.
+[2017.03.12-23.29.30:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.12-23.29.30:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.12-23.29.30:733][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.12-23.29.30:758][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.12-23.29.30:789][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.12-23.29.30:861][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.12-23.29.30:866][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.12-23.29.30:923][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.12-23.29.30:923][  0]LogLoad: (Engine Initialization) Total time: 11.00 seconds
+[2017.03.12-23.29.30:923][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.03.12-23.29.30:923][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.12-23.29.30:933][  0]LogOcInput: OculusInput pre-init called
+[2017.03.12-23.29.30:946][  0]LogAssetRegistry: Asset discovery search completed in 6.0883 seconds
+[2017.03.12-23.29.30:946][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.03.12-23.29.30:946][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2017.03.12-23.29.30:947][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.12-23.29.30:953][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.12-23.29.30:956][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.12-23.29.30:960][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.12-23.29.31:065][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:2).
+[2017.03.12-23.29.33:878][315]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.12-23.29.33:887][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.33:887][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.33:887][315]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP
+[2017.03.12-23.29.33:887][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.33:887][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.33:889][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.33:889][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.33:889][315]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Materials/Cloud_Shadows
+[2017.03.12-23.29.33:889][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.33:889][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.33:889][315]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat
+[2017.03.12-23.29.33:889][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.33:889][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.33:890][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.33:890][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.33:890][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.33:890][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.34:037][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:037][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.34:037][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:037][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading NULL.
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading NULL.
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:038][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:039][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.34:039][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading NULL.
+[2017.03.12-23.29.34:039][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.34:039][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading NULL.
+[2017.03.12-23.29.34:039][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:039][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:039][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:039][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:047][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:047][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:047][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:047][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:053][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:053][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:053][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:053][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:053][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:053][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:053][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:053][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:054][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:054][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:054][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:054][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:054][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:054][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:054][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:054][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:063][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:063][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:063][315]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.34:064][315]LoadErrors: Info Failed to load /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP.Ultra_Dynamic_Sky_BP_C Referenced by PersistentLevel
+[2017.03.12-23.29.34:064][315]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.34:132][315]LogAIModule: Creating AISystem for world MainMenu
+[2017.03.12-23.29.34:153][315]Cmd: MAP LOAD FILE="../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.12-23.29.34:154][315]LightingResults: New page: Lighting Build
+[2017.03.12-23.29.34:155][315]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.03.12-23.29.34:155][315]MapCheck: New page: Map Check
+[2017.03.12-23.29.34:155][315]LightingResults: New page: Lighting Build
+[2017.03.12-23.29.34:220][315]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.12-23.29.34:235][315]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.12-23.29.34:268][315]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.837ms to complete.
+[2017.03.12-23.29.34:268][315]LogFileHelpers: Loading map 'MainMenu' took 0.115
+[2017.03.12-23.29.34:276][315]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sun_Root': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.34:276][315]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_4757': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.34:276][315]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Ultra_Dynamic_Sky_Sphere': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.34:276][315]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_4756': StaticMeshComponent /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2.Ultra_Dynamic_Sky_Sphere
+[2017.03.12-23.29.34:276][315]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.36:502][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.03.12-23.29.36:502][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.12-23.29.36:502][560]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.12-23.29.36:502][560]LogModuleManager:Warning: No filename provided for module OnlineSubsystemSteam
+[2017.03.12-23.29.36:502][560]LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/' was not found.
+[2017.03.12-23.29.36:514][560]PIE: New page: SIE session: MainMenu (Mar 12, 2017, 1:29:36 PM)
+[2017.03.12-23.29.36:514][560]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2017.03.12-23.29.36:524][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009631s)
+[2017.03.12-23.29.36:524][560]LogAIModule: Creating AISystem for world MainMenu
+[2017.03.12-23.29.36:524][560]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.03.12-23.29.36:524][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.010304s)
+[2017.03.12-23.29.36:536][560]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.12-23.29.36:541][560]LogInit: FAudioDevice initialized.
+[2017.03.12-23.29.36:557][560]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_4454_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_448c_0///####STATCAT_Advanced####
+[2017.03.12-23.29.36:594][560]LogLoad: Game class is 'GameModeBase'
+[2017.03.12-23.29.36:601][560]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.03.12-18.29.36
+[2017.03.12-23.29.36:601][560]LogWorld: Bringing up level for play took: 0.004317
+[2017.03.12-23.29.36:613][560]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.12-23.29.36:672][560]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.03.12-23.29.36:673][560]LogModuleManager:Warning: No filename provided for module OnlineSubsystemSTEAM
+[2017.03.12-23.29.36:673][560]LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemSTEAM' because the file 'C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/' was not found.
+[2017.03.12-23.29.36:673][560]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.425
+[2017.03.12-23.29.36:677][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.03.12-23.29.37:533][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.03.12-23.29.37:574][650]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.12-23.29.37:574][650]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.12-23.29.37:575][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.03.12-23.29.37:634][655]LogPlayLevel:Display: Destroying online subsystem :Context_1
+[2017.03.12-23.29.37:634][655]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.12-23.29.40:732][ 24]Cmd: MAP LOAD FILE="../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.12-23.29.40:732][ 24]LightingResults: New page: Lighting Build
+[2017.03.12-23.29.40:733][ 24]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.03.12-23.29.40:734][ 24]MapCheck: New page: Map Check
+[2017.03.12-23.29.40:734][ 24]LightingResults: New page: Lighting Build
+[2017.03.12-23.29.40:745][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:745][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:745][ 24]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP
+[2017.03.12-23.29.40:745][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:745][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:747][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.40:747][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:747][ 24]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Materials/Cloud_Shadows
+[2017.03.12-23.29.40:747][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.40:747][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:748][ 24]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat
+[2017.03.12-23.29.40:748][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:748][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:748][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.40:748][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:748][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.40:748][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:749][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:749][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:749][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:749][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading NULL.
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading NULL.
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading NULL.
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading NULL.
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:750][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:751][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:751][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:758][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:758][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:758][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:758][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:763][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:764][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:765][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:770][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:770][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:770][ 24]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.40:770][ 24]LoadErrors: Info Failed to load /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP.Ultra_Dynamic_Sky_BP_C Referenced by PersistentLevel
+[2017.03.12-23.29.40:770][ 24]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.40:780][ 24]LogAIModule: Creating AISystem for world MainMenu
+[2017.03.12-23.29.40:845][ 24]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.12-23.29.40:872][ 24]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.12-23.29.40:903][ 24]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.742ms to complete.
+[2017.03.12-23.29.40:904][ 24]LogFileHelpers: Loading map 'MainMenu' took 0.172
+[2017.03.12-23.29.40:908][ 24]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sun_Root': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.40:908][ 24]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_4757': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.40:908][ 24]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Ultra_Dynamic_Sky_Sphere': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.40:908][ 24]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_4756': StaticMeshComponent /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2.Ultra_Dynamic_Sky_Sphere
+[2017.03.12-23.29.40:908][ 24]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.45:519][570]Cmd: MAP LOAD FILE="../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.12-23.29.45:519][570]LightingResults: New page: Lighting Build
+[2017.03.12-23.29.45:520][570]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.03.12-23.29.45:521][570]MapCheck: New page: Map Check
+[2017.03.12-23.29.45:521][570]LightingResults: New page: Lighting Build
+[2017.03.12-23.29.45:532][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:532][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:532][570]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP
+[2017.03.12-23.29.45:532][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:532][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:534][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.45:534][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:534][570]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Materials/Cloud_Shadows
+[2017.03.12-23.29.45:534][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.45:534][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:534][570]LoadErrors:Error: Error /Game/Levels/MainMenu : Can't find file for asset. /Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat
+[2017.03.12-23.29.45:534][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:534][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:535][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.45:535][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:535][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.45:535][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:535][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:535][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:535][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:535][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading ../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Levels/MainMenu.umap.
+[2017.03.12-23.29.45:536][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:536][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:536][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:536][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:536][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.45:536][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading NULL.
+[2017.03.12-23.29.45:536][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading NULL.
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Cloud_Shadows'
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Cloud_Shadows' while loading NULL.
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat'
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Materials/Ultra_Dynamic_Sky_Mat' while loading NULL.
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:537][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:545][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:545][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:545][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:545][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:550][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:550][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:550][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:550][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:550][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:550][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:550][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:551][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:557][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:557][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:557][570]LogLinker:Warning: Can't find file '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP'
+[2017.03.12-23.29.45:557][570]LoadErrors: Info Failed to load /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP.Ultra_Dynamic_Sky_BP_C Referenced by PersistentLevel
+[2017.03.12-23.29.45:557][570]LogLinker:Warning: Can't find file for asset '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP' while loading NULL.
+[2017.03.12-23.29.45:566][570]LogAIModule: Creating AISystem for world MainMenu
+[2017.03.12-23.29.45:642][570]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.12-23.29.45:666][570]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.12-23.29.45:696][570]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.802ms to complete.
+[2017.03.12-23.29.45:697][570]LogFileHelpers: Loading map 'MainMenu' took 0.179
+[2017.03.12-23.29.45:700][570]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sun_Root': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.45:700][570]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_4757': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.45:700][570]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Ultra_Dynamic_Sky_Sphere': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.45:700][570]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_4756': StaticMeshComponent /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2.Ultra_Dynamic_Sky_Sphere
+[2017.03.12-23.29.45:700][570]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Ultra_Dynamic_Sky_BP_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.Ultra_Dynamic_Sky_BP2
+[2017.03.12-23.29.51:288][232]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.12-23.29.51:981][276]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.03.12-23.29.52:441][276]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.12-23.29.53:220][341]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.12-23.30.08:844][182]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.03.12-23.30.08:930][182]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.03.12-23.30.08:930][182]LogDirectoryWatcher: A directory notification for '../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Plugins/' was aborted.
+[2017.03.12-23.30.08:931][182]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.12-23.30.09:180][183]Cmd: QUIT_EDITOR
+[2017.03.12-23.30.09:273][183]LogExit: Preparing to exit.
+[2017.03.12-23.30.10:307][183]LogDirectoryWatcher: A directory notification for 'C:/Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/' was aborted.
+[2017.03.12-23.30.10:334][183]LogExit: Editor shut down
+[2017.03.12-23.30.10:334][183]LogExit: Transaction tracking system shut down
+[2017.03.12-23.30.10:411][183]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.12-23.30.10:412][183]LogExit: Object subsystem successfully closed.
+[2017.03.12-23.30.10:424][183]LogD3D11RHI: Shutdown
+[2017.03.12-23.30.10:424][183]LogD3D11RHI: CleanupD3DDevice
+[2017.03.12-23.30.10:488][183]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module BlueprintGraph (507)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (505)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (503)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module Voice (501)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (499)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module CrashTracker (497)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module SceneOutliner (495)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module AddContentDialog (493)
+[2017.03.12-23.30.10:498][183]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module WidgetCarousel (492)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module EditorWidgets (489)
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module CollectionManager (487)
+[2017.03.12-23.30.10:498][183]LogDirectoryWatcher: A directory notification for 'C:/Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Collections/' was aborted.
+[2017.03.12-23.30.10:498][183]LogDirectoryWatcher: A directory notification for 'C:/Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/Developers/rojo8/Collections/' was aborted.
+[2017.03.12-23.30.10:498][183]LogDirectoryWatcher: A directory notification for 'C:/Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Saved/Collections/' was aborted.
+[2017.03.12-23.30.10:498][183]LogModuleManager: Shutting down and abandoning module StatsViewer (485)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module FoliageEdit (483)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module LandscapeEditor (481)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (479)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module ActorPickerMode (477)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module GeometryMode (475)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module TextureAlignMode (473)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module BspMode (471)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module HardwareSurvey (469)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (467)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module AutomationWorker (465)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (463)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (461)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module PlacementMode (460)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (457)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (455)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module MfMediaFactory (453)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module MfMediaEditor (451)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (449)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (447)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (445)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module Media (444)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (441)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module CharacterAI (439)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module AudioCapture (437)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module SequenceRecorder (436)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module SmartSnapping (433)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module SessionServices (431)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module ViewportSnapping (429)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module ViewportInteraction (427)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module LogVisualizer (425)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module IntroTutorials (423)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (422)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (419)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (417)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (415)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (413)
+[2017.03.12-23.30.10:499][183]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (412)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (409)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (407)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module InputBindingEditor (405)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module NiagaraEditor (403)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module MergeActors (401)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module SizeMap (399)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module TreeMap (397)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module ReferenceViewer (395)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (393)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module LocalizationService (392)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module HardwareTargeting (389)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (387)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module UndoHistory (385)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module UserFeedback (383)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module XmlParser (381)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module Blutility (379)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (377)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (376)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (373)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module SettingsEditor (371)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module ProjectLauncher (369)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module SessionFrontend (367)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module ProfilerClient (365)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module DeviceManager (363)
+[2017.03.12-23.30.11:233][183]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (362)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module AutomationController (359)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module AutomationWindow (357)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module Layers (355)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (353)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module DetailCustomizations (351)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module PackagesDialog (349)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module Persona (347)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module AnimGraph (346)
+[2017.03.12-23.30.11:276][183]LogModuleManager: Shutting down and abandoning module Kismet (343)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module GraphEditor (341)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module ClassViewer (339)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module Toolbox (337)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module ModuleUI (335)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module MovieSceneTools (333)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module OutputLog (331)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module GammaUI (329)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module Documentation (327)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module Niagara (325)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (323)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module AnalyticsET (321)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module PortalServices (319)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module PortalRpc (317)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module MessagingRpc (315)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module AIModule (313)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module GameplayDebugger (312)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module AITestSuite (310)
+[2017.03.12-23.30.11:282][183]LogModuleManager: Shutting down and abandoning module ProfilerService (307)
+[2017.03.12-23.30.11:516][183]LogModuleManager: Shutting down and abandoning module TaskGraph (305)
+[2017.03.12-23.30.11:516][183]LogModuleManager: Shutting down and abandoning module SteamVRController (303)
+[2017.03.12-23.30.11:516][183]LogModuleManager: Shutting down and abandoning module SteamVR (301)
+[2017.03.12-23.30.11:516][183]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (299)
+[2017.03.12-23.30.11:516][183]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (297)
+[2017.03.12-23.30.11:516][183]LogModuleManager: Shutting down and abandoning module OculusLibrary (295)
+[2017.03.12-23.30.11:516][183]LogModuleManager: Shutting down and abandoning module OculusInput (293)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (291)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (289)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module CableComponent (287)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (285)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (283)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module HTML5Networking (281)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module AlembicImporter (279)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module AlembicLibrary (278)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module GeometryCache (277)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (276)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (271)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module SuperSearch (270)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (267)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module PluginBrowser (265)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (263)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module EpicSurvey (261)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (259)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module DesktopPlatform (258)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module UObjectPlugin (255)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (253)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (251)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module GitSourceControl (249)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module SourceControl (248)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (245)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (243)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (241)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module Paper2DEditor (239)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module MeshPaint (238)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module LevelEditor (236)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (235)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module MainFrame (233)
+[2017.03.12-23.30.11:517][183]LogModuleManager: Shutting down and abandoning module HotReload (232)
+[2017.03.12-23.30.11:518][183]LogModuleManager: Shutting down and abandoning module ContentBrowser (228)
+[2017.03.12-23.30.11:518][183]LogModuleManager: Shutting down and abandoning module AdvancedSessions (225)
+[2017.03.12-23.30.11:518][183]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (223)
+[2017.03.12-23.30.11:518][183]LogModuleManager: Shutting down and abandoning module PhysXVehicles (221)
+[2017.03.12-23.30.11:518][183]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (219)
+[2017.03.12-23.30.11:518][183]LogModuleManager: Shutting down and abandoning module UdpMessaging (217)
+[2017.03.12-23.30.11:619][183]LogModuleManager: Shutting down and abandoning module TcpMessaging (215)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (213)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (211)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module FacialAnimation (209)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (207)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module Paper2D (205)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (203)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module WmfMedia (201)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module MfMedia (199)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module MediaAssets (197)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (195)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module VREditor (193)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (191)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (189)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module FunctionalTesting (187)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (185)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module UMG (183)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module UMGEditor (182)
+[2017.03.12-23.30.11:719][183]LogModuleManager: Shutting down and abandoning module Sequencer (181)
+[2017.03.12-23.30.11:720][183]LogModuleManager: Shutting down and abandoning module AssetTools (179)
+[2017.03.12-23.30.11:720][183]LogModuleManager: Shutting down and abandoning module MessageLog (178)
+[2017.03.12-23.30.11:720][183]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (177)
+[2017.03.12-23.30.11:720][183]LogModuleManager: Shutting down and abandoning module SlateReflector (171)
+[2017.03.12-23.30.11:720][183]LogModuleManager: Shutting down and abandoning module Slate (169)
+[2017.03.12-23.30.11:720][183]LogModuleManager: Shutting down and abandoning module EditorStyle (167)
+[2017.03.12-23.30.11:722][183]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (165)
+[2017.03.12-23.30.11:722][183]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (163)
+[2017.03.12-23.30.11:722][183]LogModuleManager: Shutting down and abandoning module XAudio2 (161)
+[2017.03.12-23.30.11:722][183]LogModuleManager: Shutting down and abandoning module Networking (159)
+[2017.03.12-23.30.11:722][183]LogModuleManager: Shutting down and abandoning module Core (157)
+[2017.03.12-23.30.11:722][183]LogModuleManager: Shutting down and abandoning module AssetRegistry (155)
+[2017.03.12-23.30.11:802][183]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.12-23.30.11:803][183]LogDirectoryWatcher: A directory notification for '../../../../../../Users/rojo8/Documents/Unreal Projects/MultiplayerMenu/Content/' was aborted.
+[2017.03.12-23.30.11:803][183]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (154)
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module KismetCompiler (151)
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module PhysXFormats (149)
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module MeshUtilities (147)
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (146)
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (144)
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (142)
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module PropertyEditor (140)
+[2017.03.12-23.30.11:803][183]LogModuleManager: Shutting down and abandoning module DerivedDataCache (137)
+[2017.03.12-23.30.12:081][183]LogDerivedDataCache: Shutdown
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module TargetPlatform (135)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (134)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (132)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (130)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (128)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (126)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (124)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (122)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (120)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (118)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module ImageWrapper (117)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (114)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (112)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (110)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (108)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (106)
+[2017.03.12-23.30.12:081][183]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (104)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (102)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (100)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (98)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Messaging (96)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (94)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (92)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (90)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (88)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (86)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (84)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (82)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (80)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (78)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (76)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (74)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (72)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (70)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (68)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (66)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (64)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (62)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (60)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (58)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module InputCore (55)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module Settings (53)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module OculusRift (51)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (49)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (47)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (43)
+[2017.03.12-23.30.12:082][183]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.12-23.30.12:082][183]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.12-23.30.12:082][183]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.12-23.30.12:082][183]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.12-23.30.12:082][183]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB80694CD-49D2-4707-AA57-C7AF3F7B2334%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=256fed3644a764721e982794461f10a2%7C1fea9db4b2ca4f448c45183c6a4fee1f%7Cb252113f-1759-4291-990d-e92f2be07692&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.12-23.30.12:107][183]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.12-23.30.12:108][183]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.12-23.30.12:108][183]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.12-23.30.12:109][183]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.12-23.30.12:111][183]LogExit: Exiting.
+[2017.03.12-23.30.12:119][183]Log file closed, 03/12/17 18:30:12
